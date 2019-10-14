@@ -7,7 +7,7 @@ const Profile = () => {
       siteMetadata: { title, position, description },
     },
   } = useStaticQuery(graphql`
-    query MySiteMetadata {
+    query  {
       site {
         siteMetadata {
           title
@@ -20,6 +20,7 @@ const Profile = () => {
     
       return (
         <div className="Profile-wrapper">
+        
           <h1>{title}</h1>
           <h2>{position}</h2>
           <p>{description}</p>
