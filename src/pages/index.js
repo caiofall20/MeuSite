@@ -7,8 +7,12 @@ const Profile = () => {
       siteMetadata: { title, position, description },
     },
   } = useStaticQuery(graphql`
+<<<<<<< HEAD
     query 
      {
+=======
+    query  {
+>>>>>>> 6e3ac89656767a5a8b57dbf2de2bf3ba5447231f
       site {
         siteMetadata {
           title
