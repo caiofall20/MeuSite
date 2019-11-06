@@ -8,6 +8,8 @@ import { Grid } from "styled-icons/boxicons-solid/Grid"
 import { ThList as List } from "styled-icons/typicons/ThList"
 import * as S from "./styled"
 
+import getThemeColor from "../../utils/getThemeColor"
+
 
   const MenuBar = () => {
     const [theme, setTheme] = useState(null)
@@ -27,12 +29,25 @@ import * as S from "./styled"
     return (
       <S.MenuBarWrapper>
         <S.MenuBarGroup>
-          <S.MenuBarLink to="/" title="Voltar para Home">
+          <S.MenuBarLink
+            to="/"
+            cover
+            direction="right"
+            bg={getThemeColor()}
+            duration={0.6}
+            title="Voltar para Home"
+          >
             <S.MenuBarItem>
               <Home />
             </S.MenuBarItem>
           </S.MenuBarLink>
-          <S.MenuBarLink to="/search/" title="Pesquisar">
+          <S.MenuBarLink
+            to="/search/"
+            cover
+            direction="right"
+            bg={getThemeColor()}            duration={0.6}
+            title="Pesquisar"
+          >
             <S.MenuBarItem>
               <Search />
             </S.MenuBarItem>
@@ -49,18 +64,21 @@ import * as S from "./styled"
             <Light />
           </S.MenuBarItem>
           <S.MenuBarItem
-          title="Mudar visualização"
-          onClick={() => {
-            window.__setPreferredDisplay(isListMode ? "grid" : "list")
-          }}
-        >
-          {isListMode ? <Grid /> : <List />}
-        </S.MenuBarItem>
-        <S.MenuBarItem title="Ir para o Topo">
-          <Arrow />
-        </S.MenuBarItem>
+            title="Mudar visualização"
+            onClick={() => {
+              window.__setPreferredDisplay(isListMode ? "grid" : "list")
+            }}
+            className="display"
+          >
+            {isListMode ? <Grid /> : <List />}
+          </S.MenuBarItem>
+          <S.MenuBarItem title="Ir para o Topo">
+            <Arrow />
+          </S.MenuBarItem>
         </S.MenuBarGroup>
-    </S.MenuBarWrapper>
-  )
-          }
-export default MenuBar
+      </S.MenuBarWrapper>
+    )
+  }
+  
+  export default MenuBar
+  
