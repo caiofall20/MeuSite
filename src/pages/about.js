@@ -15,59 +15,22 @@ const AboutPage = () => (
     <MainContent>
       <h1>Sobre mim</h1>
       <p>
-        Meu nome é Willian Justen de Vasconcellos, nasci em Petrópolis/RJ e
-        atualmente sou Frontend Developer no core da{' '}
-        <a href="https://toptal.com" target="_blank" rel="noopener noreferrer">
-          Toptal
+        Meu nome é Caio Mateus Oliveira Martins de Sousa, nasci em Recipe/PE e
+        atualmente sou  Developer no {' '}
+        <a href="http://gcti.parnamirim.rn.gov.br/" target="_blank" rel="noopener noreferrer">
+          GCTI
         </a>
-        , além de ser um nômade digital e tirar{' '}
-        <a
-          href="https://unsplash.com/@willianjusten"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          algumas fotos
-        </a>{' '}
-        por onde vou.
       </p>
 
       <p>
-        Já passei por empresas como{' '}
-        <a
-          href="http://www.hugeinc.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Huge
-        </a>
-        ,{' '}
-        <a
-          href="http://www.globo.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Globo.com
-        </a>
-        ,{' '}
-        <a
-          href="https://queremos.com.br"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Queremos
-        </a>{' '}
-        e outras mais. Cursei Tecnologia da Informação na Faeterj-Petrópolis no
-        ano de 2014, mas curiosamente, essa não foi minha primeira faculdade, eu
-        também fiz <strong>Química Industrial</strong> na Uff. Sim, você leu
-        certo, eu realmente fiz Química… E por que eu trabalho com web agora?
-        Ah… porque web é incrível e a facilidade em aprender cada dia mais, me
-        deixa mais feliz com a escolha que fiz.
+        Cursei Tecnologia em <strong>Sistemas para Internet</strong> no IFRN no
+        ano de 2014, Atualmente estou cursando <strong>Ciência da Computação</strong>. Estudar tecnologia é algo que 
+        realmente me deixa bastante entusiasmado porque sempre gostei de jogos e aparelhos eletrônicos desde criança e 
+        acredito que com a tecnologia serão solucionados muitos problemas que temos no mundo.
       </p>
 
       <p>
-        Eu amo trabalhar em equipe e sou bem comunicativo. No meu tempo livre,
-        gosto de ensinar meus amigos sobre alguma coisa que aprendi, acho que
-        por isso nasceu esse blog.
+      
       </p>
 
       <h2>Habilidades</h2>
@@ -76,18 +39,18 @@ const AboutPage = () => (
         <li>HTML e Template Languages</li>
         <li>Design Responsivo (Mobile First)</li>
         <li>CSS (Stylus, Sass, Less, PostCSS)</li>
-        <li>Css Frameworks (Bootstrap, Foundation, Bulma)</li>
-        <li>Javascript (Design Patterns, Testes, ES6/7)</li>
-        <li>ReactJS / Redux / Flux</li>
-        <li>NodeJS</li>
+        <li>Css Frameworks (Bootstrap, Materialize)</li>
+        <li>Javascript (Design Patterns, ES6/7)</li>
+        <li>Angular</li>
+        <li>Java</li>
+        <li>Spring Boot</li>
         <li>Automatizadores (Grunt, Gulp, Webpack, Parcel)</li>
+        <li>Rest</li>
         <li>Git</li>
         <li>Python</li>
-        <li>Ruby / Rails</li>
-        <li>MySQL - MongoDB</li>
-        <li>Scrum and Kanban</li>
-        <li>TDD e Continuous Integration</li>
-        <li>O que eu não sei, aprendo rápido =)</li>
+        <li>Django</li>
+        <li>MySQL - MongoDB - postgresql</li>
+        <li>Scrum</li>
       </ul>
 
       <h2>Contato</h2>

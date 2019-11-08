@@ -3,11 +3,11 @@ require("dotenv").config()
 const queries = require("./src/utils/algolia_queries")
 module.exports = {
   siteMetadata: {
-    title: `My blog`,
-    position: `Backend Developer`,
-    description: `A blog about backend development and other cool stuff.`,
+    title: `CaioSousa`,
+    position: `Developer`,
+    description: `Compartilhar conhecimentos é a melhor forma de se aprender.`,
     author: `@caio`,
-    siteUrl: `https://caiosousa.com.br`,
+    siteUrl: `https://caiosousa.netlify.com`,
   },
   plugins: [
     `gatsby-plugin-transition-link`,
