@@ -2,7 +2,7 @@ backend:
   name: github
   repo: caiofall20/MeuSite
   branch: master
-  site_domain: https://caiosousa.netlify.com/
+  site_domain: caiosousa.netlify.com
 
 publish_mode: editorial_workflow
 media_folder: "static/assets/img"
