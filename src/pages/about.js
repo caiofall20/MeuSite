@@ -15,8 +15,8 @@ const AboutPage = () => (
     <MainContent>
       <h1>Sobre mim</h1>
       <p>
-        Meu nome é Caio Mateus Oliveira Martins de Sousa, nasci em Recipe/PE e
-        atualmente sou  Developer no {' '}
+        Meu nome é Caio Mateus Oliveira Martins de Sousa, nasci em Recife/PE e
+        atualmente sou Developer no {' '}
         <a href="http://gcti.parnamirim.rn.gov.br/" target="_blank" rel="noopener noreferrer">
           GCTI
         </a>
@@ -42,14 +42,15 @@ const AboutPage = () => (
         <li>Css Frameworks (Bootstrap, Materialize)</li>
         <li>Javascript (Design Patterns, ES6/7)</li>
         <li>Angular</li>
+        <li>Automatizadores (Grunt, Gulp, Webpack)</li>
         <li>Java</li>
         <li>Spring Boot</li>
-        <li>Automatizadores (Grunt, Gulp, Webpack, Parcel)</li>
-        <li>Rest</li>
-        <li>Git</li>
         <li>Python</li>
         <li>Django</li>
-        <li>MySQL - MongoDB - postgresql</li>
+        <li>Rest</li>
+        <li>GraphQL</li>
+        <li>Git</li>
+        <li>MySQL - MongoDB - Postgresql</li>
         <li>Scrum</li>
       </ul>
 

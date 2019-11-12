@@ -15,7 +15,7 @@ const links = [
   // },
   {
     label: "Instagram",
-    url: `https://www.instagram.com/${handle}`,
+    url: `https://www.instagram.com/caiomsousa_`,
   },
   {
     label: "Linkedin",
