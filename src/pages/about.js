@@ -15,14 +15,7 @@ const AboutPage = () => (
     <MainContent>
       <h1>Sobre mim</h1>
       <p>
-        Meu nome é Caio Mateus Oliveira Martins de Sousa, nasci em Recife/PE e
-        atualmente sou Developer no {' '}
-        <a href="http://gcti.parnamirim.rn.gov.br/" target="_blank" rel="noopener noreferrer">
-          GCTI
-        </a>
-      </p>
-
-      <p>
+        Meu nome é Caio Mateus Oliveira Martins de Sousa, nasci em Recife/PE.
         Cursei Tecnologia em <strong>Sistemas para Internet</strong> no IFRN no
         ano de 2014, Atualmente estou cursando <strong>Ciência da Computação</strong>. Estudar tecnologia é algo que 
         realmente me deixa bastante entusiasmado porque sempre gostei de jogos e aparelhos eletrônicos desde criança e 
@@ -47,11 +40,15 @@ const AboutPage = () => (
         <li>Spring Boot</li>
         <li>Python</li>
         <li>Django</li>
+        <li>Pyramid</li>
         <li>Rest</li>
         <li>GraphQL</li>
         <li>Git</li>
         <li>MySQL - MongoDB - Postgresql</li>
         <li>Scrum</li>
+        <li>Node</li>
+        <li>React</li>
+        <li>React Native</li>
       </ul>
 
       <h2>Contato</h2>
