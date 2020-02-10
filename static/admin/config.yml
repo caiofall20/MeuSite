@@ -27,7 +27,7 @@ collections:
         label: "Category",
         name: "category",
         widget: "select",
-        options: ["jekyll", "css", "js", "html", "svg", "dev", "misc", "python", "java", "docker", "linux", "sql", "mongo", "bootstrap" ]
+        options: ["jekyll", "css", "js", "html", "svg", "dev", "misc", "python", "java", "docker", "linux", "sql", "mongo", "bootstrap", "node", "react", "react native" ]
       }
       - {
         label: "Background",
@@ -46,8 +46,11 @@ collections:
           { label: 'Docker', value: '#00BFFF' },
           { label: 'Linux', value: '#000000' },
           { label: 'Sql', value: '#C0C0C0' },
-          { label: 'Mongo', value: '#00FF7F' },
+          { label: 'Mongo', value: '#2E8B57' },
           { label: 'Bootstrap', value: '#9932CC' },
+          { label: 'Node', value: '#7AAB13' },
+          { label: 'React', value: '#1E90FF' },
+           { label: 'React Native', value: '#1E90FF' },
         ]
       }
       - { label: "Body", name: "body", widget: "markdown" }
