@@ -1,9 +1,10 @@
 ---
-date: 2014-01-31 05:54:23
 title: Two things are infinite
 description: And I'm not sure about the universe.
-category: Java
-background: "red"
+date: 2014-01-31T05:54:23.000Z
+thumbnail: /assets/img/lake.jpg
+category: linux
+background: '#000000'
 ---
 
 # Lorem ipsum
