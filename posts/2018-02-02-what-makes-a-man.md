@@ -12,8 +12,6 @@ background: '#00BFFF'
 
 - - -
 
-![containers.](/assets/img/container.jpg)
-
 O Docker é nada mais que uma plataforma aberta para criação, execução e publicação (deploy) de containers. Um Container é a forma de empacotar sua aplicação e suas dependências (bibliotecas) de forma padronizada. 
 
 Podemos dizer que as palavras chaves para o Docker são: construir, entregar e rodar em qualquer ambiente (develop, ship and run anywhere).
