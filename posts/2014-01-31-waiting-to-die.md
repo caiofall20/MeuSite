@@ -2,7 +2,7 @@
 title: Two things are infinite
 description: And I'm not sure about the universe.
 date: 2014-01-31T05:54:23.000Z
-thumbnail: /assets/img/lake.jpg
+image: /assets/img/lake.jpg
 category: linux
 background: '#000000'
 ---
