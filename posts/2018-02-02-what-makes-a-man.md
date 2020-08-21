@@ -51,4 +51,4 @@ Se o seu sistema operacional for linux, Ubuntu, por exemplo, você deve seguir o
 
 `$ docker -v`
 
-``
+Bom pessoal, o Docker é uma ferramenta bem completa e que está cada vez mais sendo usadas nos times de desenvolvimento, se você deseja ir a fundo nessa ferramenta você pode dá uma olhada da documentação do Docker: <https://docs.docker.com/> e também tem uma apostila muito boa do Daniel Barreto disponível da Casa do Código.
